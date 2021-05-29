@@ -2,7 +2,7 @@
 Chrome extension for JIOFI
 
 
-#Current Functionality:
+## Current Functionality:
   - JioFI battery Percentage
 
 ## How to load the extension
