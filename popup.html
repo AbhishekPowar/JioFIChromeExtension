@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JioDash</title>
+        <style>
+            .battery {
+                display: flex;
+            }
+            body {
+                background: #282828;
+                color: white;
+                width: 100px;
+            }
+            .isCharging {
+                color: greenyellow;
+            }
+            .isLow {
+                color: rgb(250, 74, 20);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="modal-header">
+            <h4>JioFi</h4>
+            <div class="battery">
+                <span> Battery: </span>
+                <div id="battery">NA</div>
+            </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
