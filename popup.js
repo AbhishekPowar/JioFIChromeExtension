@@ -13,15 +13,15 @@ chrome.runtime.sendMessage("foo", function (response) {
 
     batteryPercentage = Number(batteryPercentage);
 
-    if (isCharging) {
-        document.querySelector("body").classList.remove("isLow");
-        document.querySelector("body").classList.add("isCharging");
-    }
     if (batteryPercentage > 20) {
         addToUI("🔋 " + batteryPercentage);
     } else {
         addToUI("🔴 " + batteryPercentage);
         document.querySelector("body").classList.add("isLow");
         document.querySelector("body").classList.remove("isCharging");
+    }
+    if (isCharging) {
+        document.querySelector("body").classList.remove("isLow");
+        document.querySelector("body").classList.add("isCharging");
     }
 });
