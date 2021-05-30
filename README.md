@@ -6,7 +6,7 @@ Chrome extension for JIOFI
   - JioFI battery Percentage
 
 ## TODO:
-  - Notification when low
+  - Notification
 
 ## How to load the extension
 - Download this extension by clicking clone/download and downloading the zip file,
